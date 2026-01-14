@@ -37,8 +37,8 @@ export const siteConfig = {
     theme: "Purple & Sage Motif",
     colors: ["#6A4F82", "#B9AACB", "#A8AF8D", "#F4F4F4", "#5B6B3C"],
     sponsors: {
-      male: "Barong, Black Pants and Leather Shoes",
-      female: "Purple/Lavender/Sage Long Gown"
+      male: "Barong Tagalog black pants",
+      female: "Floor Length gown silk gray/silver"
     },
     guests: {
       gents: "Polo & Pants (Strictly no Tshirt)",

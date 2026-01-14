@@ -16,8 +16,11 @@ async function getImagesFrom(dir: string) {
       .filter((p) => p.match(/\.(jpe?g|png|webp|gif)$/i))
       .sort((a, b) => {
         // Extract numeric part from filename for proper numerical sorting
-        const numA = parseInt(a.match(/\/(\d+)\./)?.[1] || "0", 10)
-        const numB = parseInt(b.match(/\/(\d+)\./)?.[1] || "0", 10)
+        // Handles formats like "couples (1).jpg" or "image1.jpg"
+        const matchA = a.match(/\((\d+)\)/) || a.match(/(\d+)\./)
+        const matchB = b.match(/\((\d+)\)/) || b.match(/(\d+)\./)
+        const numA = parseInt(matchA?.[1] || "0", 10)
+        const numB = parseInt(matchB?.[1] || "0", 10)
         return numA - numB
       })
   } catch {
@@ -26,12 +29,9 @@ async function getImagesFrom(dir: string) {
 }
 
 export default async function GalleryPage() {
-  const mobileImages = await getImagesFrom("mobile-background")
-  const desktopImages = await getImagesFrom("desktop-background")
-  const allImages = [...mobileImages, ...desktopImages]
-  const images = allImages.map((src) => {
-    const category = src.includes("mobile-background") ? "mobile" as const : "desktop" as const
-    return { src, category }
+  const galleryImages = await getImagesFrom("gallery")
+  const images = galleryImages.map((src) => {
+    return { src, category: "gallery" as const }
   })
 
   return (
@@ -109,7 +109,7 @@ export default async function GalleryPage() {
             Our Love Story Gallery
           </h1>
           <p className="text-xs sm:text-sm md:text-base lg:text-lg text-[#8B3036]/95 font-light max-w-xl mx-auto leading-relaxed px-2">
-            Every photograph tells a story of Daniel & Florence's journey to forever
+            Every photograph tells a story of Rizchelle & Denmark's journey to forever
           </p>
           
           {/* Decorative element below subtitle */}
@@ -125,7 +125,7 @@ export default async function GalleryPage() {
             <p className="font-light">
               No images found. Add files to{" "}
               <code className="px-2 py-1 bg-[#8B3036]/80 rounded border border-[#8B3036]/30 text-[#8B3036]">
-                public/mobile-background or public/desktop-background
+                public/gallery
               </code>
               .
             </p>

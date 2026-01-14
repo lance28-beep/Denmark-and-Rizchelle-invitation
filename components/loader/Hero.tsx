@@ -15,11 +15,11 @@ const desktopImages: string[] = [
 ];
 
 const mobileImages: string[] = [
-  '/mobile-background/couple (9).webp',
-  '/mobile-background/couple (18).webp',
-  '/mobile-background/couple (20).webp',
-  '/mobile-background/couple (23).webp',
-  '/mobile-background/couple (5).webp',
+  '/mobileHero/couple.jpg',
+  '/mobileHero/couple1.jpg',
+  '/mobileHero/couple2.jpg',
+  '/mobileHero/couple.jpg',
+  '/mobileHero/couple1.jpg',
 ];
 
 export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
             {/* Monogram Image */}
             <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44">
               <Image
-                src="/monogram/monogram.png"
+                src="/monogram/monogram2.png"
                 alt="Denmark & Rizchelle Monogram"
                 fill
                 className="object-contain"

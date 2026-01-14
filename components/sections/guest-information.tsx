@@ -12,8 +12,8 @@ const cormorant = Cormorant_Garamond({
 })
 
 export function GuestInformation() {
-  // Palettes (used only for color chips in attire card) - Beige variants
-  const sponsorPalette = ["#D1B48C", "#D1B79E", "#DFCFAD", "#F5DEB4", "#F0E2BB"]
+  // Palettes (used only for color chips in attire card) - Gray/Silver variants
+  const sponsorPalette = ["#C0C0C0", "#D3D3D3", "#E5E5E5", "#F5F5F5", "#A9A9A9"]
   // Pink and Beige shades for guests
   const guestPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#CBB9A3", "#F5F5F5", "#F4F1EA", "#FAF9F5"]
 
@@ -98,10 +98,10 @@ export function GuestInformation() {
                   </div>
                   <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
                     <p className="text-[#8B3036]">
-                      <span className="font-semibold">Male Sponsor:</span> Barong, Black Pants and Leather Shoes
+                      <span className="font-semibold">Ninong:</span> Barong Tagalog black pants
                     </p>
                     <p className="text-[#8B3036]">
-                      <span className="font-semibold">Female Sponsor:</span> variants of beige
+                      <span className="font-semibold">Ninang:</span> Floor Length gown silk gray/silver
                     </p>
                     <div className="pt-1">
                       <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#8B3036] mb-1">

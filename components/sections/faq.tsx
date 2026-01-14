@@ -46,7 +46,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Is there a dress code?",
     answer:
-      `Yes! We kindly request our guests to dress in formal attire matching our wedding colors. Please see the Attire section in Details for specific guidelines:\n\nPrincipal Sponsors:\n• Male: Barong, Black Pants and Leather Shoes\n• Female: variants of beige\n\nWedding Guests:\n• Formal or Semi Formal attire\n• We encourage you to dress according to our wedding color to help create a soft, elegant romantic celebration.`,
+      `Yes! We kindly request our guests to dress in formal attire matching our wedding colors. Please see the Attire section in Details for specific guidelines:\n\nPrincipal Sponsors:\n• Ninong: Barong Tagalog black pants\n• Ninang: Floor Length gown silk gray/silver\n\nWedding Guests:\n• Formal or Semi Formal attire\n• We encourage you to dress according to our wedding color to help create a soft, elegant romantic celebration.`,
   },
   {
     question: "Will there be assigned seating?",
