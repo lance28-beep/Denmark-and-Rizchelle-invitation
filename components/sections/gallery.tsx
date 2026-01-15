@@ -24,10 +24,10 @@ const galleryHashtag = "#DanielAndFlorenceWedding"
 
 const galleryItems = [
   { image: "/mobile-background/couple (23).webp", text: " " },
-  { image: "/mobile-background/couple (13).webp", text: " " },
+  { image: "/gallery/couples (1).jpg", text: " " },
   { image: "/mobile-background/couple (21).webp", text: " " },
   { image: "/mobile-background/couple (20).webp", text: " " },
-  { image: "/mobile-background/couple (19).webp", text: " " },
+  { image: "/gallery/couples (3).jpg", text: " " },
   { image: "/mobile-background/couple (9).webp", text: " " },
 
 ]
@@ -187,7 +187,7 @@ export function Gallery() {
         </div>
 
         <p className={`${cormorant.className} text-xs sm:text-sm md:text-base text-[#8B3036]/95 font-light max-w-xl mx-auto leading-relaxed mt-3`}>
-          Beautiful frames capturing the journey of Daniel & Florence — each photograph a precious memory of laughter, love, and the moments that led us to forever.
+          Beautiful frames capturing the journey of {coupleDisplayName} — each photograph a precious memory of laughter, love, and the moments that led us to forever.
         </p>
 
         <div className="flex items-center justify-center gap-2 mt-6">
