@@ -23,7 +23,7 @@ export function CoupleVideo() {
   const { pauseMusic, resumeMusic } = useAudio()
 
   // YouTube video ID
-  const videoId = "eFyFCehaJhA"
+  const videoId = "9GwKNq_q-jk"
 
   // Load YouTube IFrame API
   useEffect(() => {
@@ -47,6 +47,8 @@ export function CoupleVideo() {
             onReady: (event: any) => {
               // Pause background music when video is ready
               pauseMusic()
+              // Play video immediately when ready
+              event.target.playVideo()
             },
             onStateChange: (event: any) => {
               // YouTube player states:

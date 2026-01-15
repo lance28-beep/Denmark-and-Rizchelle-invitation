@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { siteConfig } from '@/content/site';
 
 interface LoadingScreenProps {
   onComplete: () => void;
@@ -90,7 +91,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             className="text-lg sm:text-2xl tracking-[0.15em] sm:tracking-[0.2em] mb-6 sm:mb-8"
             style={{ fontFamily: '"Cinzel", serif', fontWeight: 500, color: '#BC677C' }}
           >
-            Denmark & Rizchelle
+            {siteConfig.couple.groomNickname} & {siteConfig.couple.brideNickname}
           </p>
 
           {/* Message */}

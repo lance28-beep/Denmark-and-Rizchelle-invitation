@@ -1,7 +1,7 @@
 export const siteConfig = {
   couple: {
     bride: "RIZCHELLE JOICE MACARAIG",
-    brideNickname: "Rizchelle",
+    brideNickname: "Joice",
     groom: "DENMARK VALENCIA",
     groomNickname: "Denmark",
   },
@@ -64,7 +64,7 @@ Now, as they prepare to say yes before God and the people they love most, Cather
   },
   snapShare: {
     googleDriveLink: "https://drive.google.com/drive/folders/1DA8Vuy84aZoBR3J4FRSFBPARW6ocNd-p?usp=sharing",
-    hashtag: "#DenmarkAndRizchelle2026",
+    hashtag: "#DenmarkAndJoice2026",
     instructions: "Please scan this QR Code, create a folder with your name and upload the photos and videos you have taken during our wedding reception. We are delighted to see your snaps too!",
   },
 }

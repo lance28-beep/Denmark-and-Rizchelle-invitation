@@ -12,11 +12,6 @@ const cormorant = Cormorant_Garamond({
 })
 
 export function GuestInformation() {
-  // Palettes (used only for color chips in attire card) - Gray/Silver variants
-  const sponsorPalette = ["#C0C0C0", "#D3D3D3", "#E5E5E5", "#F5F5F5", "#A9A9A9"]
-  // Pink and Beige shades for guests
-  const guestPalette = ["#BC677C", "#E2AAAD", "#EBC1CB", "#FAEAEA", "#CBB9A3", "#F5F5F5", "#F4F1EA", "#FAF9F5"]
-
   return (
     <Section
       id="guest-information"
@@ -98,26 +93,11 @@ export function GuestInformation() {
                   </div>
                   <div className="space-y-1.5 sm:space-y-2 text-xs sm:text-sm">
                     <p className="text-[#8B3036]">
-                      <span className="font-semibold">Ninong:</span> Barong Tagalog black pants
+                      <span className="font-semibold">Ninong:</span> Barong Tagalog Black Pants
                     </p>
                     <p className="text-[#8B3036]">
-                      <span className="font-semibold">Ninang:</span> Floor Length gown silk gray/silver
+                      <span className="font-semibold">Ninang:</span> Floor Length Gown Silk gray/Silver
                     </p>
-                    <div className="pt-1">
-                      <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#8B3036] mb-1">
-                        Palette
-                      </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {sponsorPalette.map((color) => (
-                          <span
-                            key={color}
-                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
-                            style={{ backgroundColor: color }}
-                            title={color}
-                          />
-                        ))}
-                      </div>
-                    </div>
                   </div>
                 </div>
 
@@ -138,23 +118,8 @@ export function GuestInformation() {
                       Formal or Semi Formal
                     </p>
                     <p className="text-[#8B3036]">
-                      We encourage you to dress in shades of pink and beige to match our wedding color palette:
+                      We encourage you to dress in shades of pink and beige to match our wedding color palette.
                     </p>
-                    <div className="pt-1">
-                      <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.15em] text-[#8B3036] mb-1">
-                        Palette
-                      </p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {guestPalette.map((color) => (
-                          <span
-                            key={color}
-                            className="w-7 h-7 rounded-full border border-white/70 shadow-sm"
-                            style={{ backgroundColor: color }}
-                            title={color}
-                          />
-                        ))}
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

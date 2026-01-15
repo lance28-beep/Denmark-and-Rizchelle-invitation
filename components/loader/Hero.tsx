@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
+import { siteConfig } from '@/content/site';
 
 interface HeroProps {
   onOpen: () => void;
@@ -80,7 +81,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpen, visible }) => {
             <div className="relative w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44">
               <Image
                 src="/monogram/monogram2.png"
-                alt="Denmark & Rizchelle Monogram"
+                alt={`${siteConfig.couple.groomNickname} & ${siteConfig.couple.brideNickname} Monogram`}
                 fill
                 className="object-contain"
                 priority
