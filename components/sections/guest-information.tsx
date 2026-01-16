@@ -83,7 +83,7 @@ export function GuestInformation() {
                   <p className="text-[10px] sm:text-xs text-[#8B3036]/80 mb-2">Kindly align attire below.</p>
                   <div className="relative w-full aspect-[4/3] sm:aspect-[5/3] rounded-xl overflow-hidden border border-[#8B3036]/40 bg-white/90 mb-3">
                     <Image
-                      src="/Details/sponsors.png"
+                      src="/Details/attirePrincipal.png"
                       alt="Principal sponsors attire guideline"
                       fill
                       className="object-contain"
@@ -98,6 +98,18 @@ export function GuestInformation() {
                     <p className="text-[#8B3036]">
                       <span className="font-semibold">Ninang:</span> Floor Length Gown Silk gray/Silver
                     </p>
+                  </div>
+                  
+                  {/* Color Palette Guide */}
+                  <div className="mt-3 sm:mt-4 pt-3 border-t border-[#8B3036]/20">
+                    <p className="text-[10px] sm:text-xs text-[#8B3036]/70 mb-2 sm:mb-2.5 font-medium">Color Palette Guide:</p>
+                    <div className="flex items-center gap-2 sm:gap-2.5 justify-start">
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#6C6D71' }} title="#6C6D71" />
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#8C8D92' }} title="#8C8D92" />
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#AAABB0' }} title="#AAABB0" />
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#C7C8CC' }} title="#C7C8CC" />
+                      <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#E3E4E6' }} title="#E3E4E6" />
+                    </div>
                   </div>
                 </div>
 
@@ -120,6 +132,27 @@ export function GuestInformation() {
                     <p className="text-[#8B3036]">
                       We encourage you to dress in shades of pink and beige to match our wedding color palette.
                     </p>
+                  </div>
+                  
+                  {/* Color Palette Guide */}
+                  <div className="mt-3 sm:mt-4 pt-3 border-t border-[#8B3036]/20">
+                    <p className="text-[10px] sm:text-xs text-[#8B3036]/70 mb-2 sm:mb-2.5 font-medium">Color Palette Guide:</p>
+                    <div className="space-y-2.5 sm:space-y-3">
+                      {/* Beige shades */}
+                      <div className="flex items-center gap-2 sm:gap-2.5 justify-start">
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#E2D9C8' }} title="#E2D9C8" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#B39C8C' }} title="#B39C8C" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#D3C2B0' }} title="#D3C2B0" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#CFC1B4' }} title="#CFC1B4" />
+                      </div>
+                      {/* Pink shades */}
+                      <div className="flex items-center gap-2 sm:gap-2.5 justify-start">
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#F3ADC5' }} title="#F3ADC5" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#D59EB5' }} title="#D59EB5" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#BF8EA3' }} title="#BF8EA3" />
+                        <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-[#8B3036]/30 shadow-sm" style={{ backgroundColor: '#BF8EA3' }} title="#BF8EA3" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
